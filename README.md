@@ -1,6 +1,9 @@
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=smileycookie.SOC_Home_Lab" />
+
 <div align="center">
     <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/SOC_Home_Lab%20.png">
 </div>
+
 
 ## Contents
 1. [Introduction](#introduction)
